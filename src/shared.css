@@ -1,0 +1,12 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: transparent !important;
+    margin: 5px;
+    min-width: 320px;
+    text-align: center;
+}
