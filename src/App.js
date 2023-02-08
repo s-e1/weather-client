@@ -11,8 +11,8 @@ function App() {
             <Navbar />
             <div className={styles.routeContainer}>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/favorites" element={<Favorites />} />
+                    <Route path="/weather-client" element={<Home />} />
+                    <Route path="/weather-client/favorites" element={<Favorites />} />
                 </Routes>
             </div>
             <footer style={{ textAlign: "center" }}>

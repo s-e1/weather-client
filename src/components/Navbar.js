@@ -14,7 +14,7 @@ const Navbar = () => {
 
                 <Button
                     component={NavLink}
-                    to="/"
+                    to="/weather-client"
                     variant="outlined"
                     color="inherit"
                     style={
@@ -31,7 +31,7 @@ const Navbar = () => {
 
                 <Button
                     component={NavLink}
-                    to="/favorites"
+                    to="/weather-client/favorites"
                     variant="outlined"
                     color="inherit"
                     style={

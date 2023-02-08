@@ -16,7 +16,7 @@ const FavoriteCard = ({ data }) => {
 
     return (
         <Card raised className="card" >
-            <CardActionArea component={Link} to="/" onClick={handleClick}>
+            <CardActionArea component={Link} to="/weather-client" onClick={handleClick}>
                 <h2>{cityName}, {country}</h2>
                 <div><img src={iconUrl} alt="icon" width="20%" /> </div>
                 <h1>{metric}&#176; C</h1>
